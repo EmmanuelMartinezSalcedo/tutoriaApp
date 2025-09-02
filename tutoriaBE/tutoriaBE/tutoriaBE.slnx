@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/tutoriaBE.AspireHost/tutoriaBE.AspireHost.csproj" />
+    <Project Path="src/tutoriaBE.ServiceDefaults/tutoriaBE.ServiceDefaults.csproj" />
+    <Project Path="src/tutoriaBE.Core/tutoriaBE.Core.csproj" />
+    <Project Path="src/tutoriaBE.Infrastructure/tutoriaBE.Infrastructure.csproj" />
+    <Project Path="src/tutoriaBE.UseCases/tutoriaBE.UseCases.csproj" />
+    <Project Path="src/tutoriaBE.Web/tutoriaBE.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/tutoriaBE.FunctionalTests/tutoriaBE.FunctionalTests.csproj">
+      <BuildDependency Project="src/tutoriaBE.Web/tutoriaBE.Web.csproj" />
+    </Project>
+    <Project Path="tests/tutoriaBE.IntegrationTests/tutoriaBE.IntegrationTests.csproj">
+      <BuildDependency Project="src/tutoriaBE.Infrastructure/tutoriaBE.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/tutoriaBE.UnitTests/tutoriaBE.UnitTests.csproj" />
+  </Folder>
+</Solution>

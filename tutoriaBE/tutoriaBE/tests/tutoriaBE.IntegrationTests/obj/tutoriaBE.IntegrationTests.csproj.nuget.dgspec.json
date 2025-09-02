@@ -1,0 +1,837 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj": {}
+  },
+  "projects": {
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
+        "projectName": "tutoriaBE.Core",
+        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[10.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.SharedKernel": {
+              "target": "Package",
+              "version": "[3.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[9.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "5.0.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "10.1.0",
+            "Ardalis.Result.AspNetCore": "10.1.0",
+            "Ardalis.SharedKernel": "3.0.1",
+            "Ardalis.SmartEnum": "8.2.0",
+            "Ardalis.Specification": "9.2.0",
+            "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
+            "Aspire.Hosting.AppHost": "9.0.0",
+            "Aspire.Hosting.Testing": "9.0.0",
+            "Azure.Identity": "1.13.1",
+            "BCrypt.Net-Next": "4.0.3",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "6.2.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "MailKit": "4.13.0",
+            "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.6",
+            "Microsoft.Extensions.Configuration": "9.0.6",
+            "Microsoft.Extensions.Http.Resilience": "9.6.0",
+            "Microsoft.Extensions.Logging": "9.0.6",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "NSubstitute": "5.3.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "ReportGenerator": "5.4.8",
+            "Serilog.AspNetCore": "9.0.0",
+            "Shouldly": "4.3.0",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.0.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
+        "projectName": "tutoriaBE.Infrastructure",
+        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
+              },
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.SharedKernel": {
+              "target": "Package",
+              "version": "[3.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.1, )",
+              "versionCentrallyManaged": true
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "5.0.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "10.1.0",
+            "Ardalis.Result.AspNetCore": "10.1.0",
+            "Ardalis.SharedKernel": "3.0.1",
+            "Ardalis.SmartEnum": "8.2.0",
+            "Ardalis.Specification": "9.2.0",
+            "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
+            "Aspire.Hosting.AppHost": "9.0.0",
+            "Aspire.Hosting.Testing": "9.0.0",
+            "Azure.Identity": "1.13.1",
+            "BCrypt.Net-Next": "4.0.3",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "6.2.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "MailKit": "4.13.0",
+            "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.6",
+            "Microsoft.Extensions.Configuration": "9.0.6",
+            "Microsoft.Extensions.Http.Resilience": "9.6.0",
+            "Microsoft.Extensions.Logging": "9.0.6",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "NSubstitute": "5.3.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "ReportGenerator": "5.4.8",
+            "Serilog.AspNetCore": "9.0.0",
+            "Shouldly": "4.3.0",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.0.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
+        "projectName": "tutoriaBE.UseCases",
+        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[10.1.0, )",
+              "versionCentrallyManaged": true
+            },
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[6.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "5.0.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "10.1.0",
+            "Ardalis.Result.AspNetCore": "10.1.0",
+            "Ardalis.SharedKernel": "3.0.1",
+            "Ardalis.SmartEnum": "8.2.0",
+            "Ardalis.Specification": "9.2.0",
+            "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
+            "Aspire.Hosting.AppHost": "9.0.0",
+            "Aspire.Hosting.Testing": "9.0.0",
+            "Azure.Identity": "1.13.1",
+            "BCrypt.Net-Next": "4.0.3",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "6.2.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "MailKit": "4.13.0",
+            "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.6",
+            "Microsoft.Extensions.Configuration": "9.0.6",
+            "Microsoft.Extensions.Http.Resilience": "9.6.0",
+            "Microsoft.Extensions.Logging": "9.0.6",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "NSubstitute": "5.3.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "ReportGenerator": "5.4.8",
+            "Serilog.AspNetCore": "9.0.0",
+            "Shouldly": "4.3.0",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.0.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj",
+        "projectName": "tutoriaBE.IntegrationTests",
+        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj"
+              },
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\tutoriaBE.UnitTests.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\tutoriaBE.UnitTests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.6, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )",
+              "versionCentrallyManaged": true
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "5.0.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "10.1.0",
+            "Ardalis.Result.AspNetCore": "10.1.0",
+            "Ardalis.SharedKernel": "3.0.1",
+            "Ardalis.SmartEnum": "8.2.0",
+            "Ardalis.Specification": "9.2.0",
+            "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
+            "Aspire.Hosting.AppHost": "9.0.0",
+            "Aspire.Hosting.Testing": "9.0.0",
+            "Azure.Identity": "1.13.1",
+            "BCrypt.Net-Next": "4.0.3",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "6.2.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "MailKit": "4.13.0",
+            "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.6",
+            "Microsoft.Extensions.Configuration": "9.0.6",
+            "Microsoft.Extensions.Http.Resilience": "9.6.0",
+            "Microsoft.Extensions.Logging": "9.0.6",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "NSubstitute": "5.3.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "ReportGenerator": "5.4.8",
+            "Serilog.AspNetCore": "9.0.0",
+            "Shouldly": "4.3.0",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.0.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\tutoriaBE.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\tutoriaBE.UnitTests.csproj",
+        "projectName": "tutoriaBE.UnitTests",
+        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\tutoriaBE.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
+              },
+              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )",
+              "versionCentrallyManaged": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.4.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "versionCentrallyManaged": true
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )",
+              "versionCentrallyManaged": true
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "5.0.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "10.1.0",
+            "Ardalis.Result.AspNetCore": "10.1.0",
+            "Ardalis.SharedKernel": "3.0.1",
+            "Ardalis.SmartEnum": "8.2.0",
+            "Ardalis.Specification": "9.2.0",
+            "Ardalis.Specification.EntityFrameworkCore": "9.2.0",
+            "Aspire.Hosting.AppHost": "9.0.0",
+            "Aspire.Hosting.Testing": "9.0.0",
+            "Azure.Identity": "1.13.1",
+            "BCrypt.Net-Next": "4.0.3",
+            "coverlet.collector": "6.0.4",
+            "FastEndpoints": "6.2.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "6.2.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "MailKit": "4.13.0",
+            "MediatR": "12.5.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.8",
+            "Microsoft.AspNetCore.Mvc.Testing": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Design": "9.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Relational": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Sqlite": "9.0.6",
+            "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.6",
+            "Microsoft.Extensions.Configuration": "9.0.6",
+            "Microsoft.Extensions.Http.Resilience": "9.6.0",
+            "Microsoft.Extensions.Logging": "9.0.6",
+            "Microsoft.Extensions.Logging.Abstractions": "9.0.6",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+            "Microsoft.Extensions.ServiceDiscovery": "9.3.1",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "NSubstitute": "5.3.0",
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.12.0",
+            "OpenTelemetry.Extensions.Hosting": "1.12.0",
+            "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
+            "OpenTelemetry.Instrumentation.Http": "1.12.0",
+            "OpenTelemetry.Instrumentation.Runtime": "1.12.0",
+            "ReportGenerator": "5.4.8",
+            "Serilog.AspNetCore": "9.0.0",
+            "Shouldly": "4.3.0",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.0.2"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
