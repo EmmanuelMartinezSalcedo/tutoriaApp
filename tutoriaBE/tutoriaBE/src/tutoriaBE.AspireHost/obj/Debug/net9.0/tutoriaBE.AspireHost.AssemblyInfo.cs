@@ -12,20 +12,20 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c540eeb6-e06b-4456-a539-be58dd8b88c7")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\marti\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\d" +
-    "cp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\marti\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\e" +
-    "xt\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\marti\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\e" +
-    "xt\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.AspireHost")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\USER\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\dc" +
+    "p.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\USER\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\ex" +
+    "t\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\USER\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\ex" +
+    "t\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.AspireHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "tutoriaBE.AspireHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\marti\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\tools\\Aspire.Da" +
-    "shboard.exe")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\USER\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\tools\\Aspire.Das" +
+    "hboard.exe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("tutoriaBE.AspireHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4374906e69b7d55c5390829a68ae08e9f63129a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f07c6e3d42f6991503475b21eb389b8bf2705fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("tutoriaBE.AspireHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tutoriaBE.AspireHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

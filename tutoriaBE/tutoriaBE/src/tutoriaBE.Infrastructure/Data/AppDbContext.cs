@@ -1,4 +1,8 @@
 ﻿using tutoriaBE.Core.ContributorAggregate;
+using tutoriaBE.Core.CourseAggregate;
+using tutoriaBE.Core.SessionAggregate;
+using tutoriaBE.Core.UserAggregate;
+using tutoriaBE.Core.UserAggregate.Entities;
 
 namespace tutoriaBE.Infrastructure.Data;
 public class AppDbContext(DbContextOptions<AppDbContext> options,
@@ -7,6 +11,9 @@ public class AppDbContext(DbContextOptions<AppDbContext> options,
   private readonly IDomainEventDispatcher? _dispatcher = dispatcher;
 
   public DbSet<Contributor> Contributors => Set<Contributor>();
+  public DbSet<User> Users => Set<User>();
+  public DbSet<Course> Courses => Set<Course>();
+  public DbSet<Session> Sessions => Set<Session>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {

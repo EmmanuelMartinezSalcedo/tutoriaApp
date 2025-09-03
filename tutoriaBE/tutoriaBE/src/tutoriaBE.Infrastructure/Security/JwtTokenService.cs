@@ -25,7 +25,7 @@ public class JwtTokenService : IJwtTokenService
     {
       new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
       new Claim(JwtRegisteredClaimNames.Email, user.Email),
-      new Claim("name", user.Name)
+      new Claim("name", user.FirstName)
     };
 
     var expires = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:ExpireMinutes"]));

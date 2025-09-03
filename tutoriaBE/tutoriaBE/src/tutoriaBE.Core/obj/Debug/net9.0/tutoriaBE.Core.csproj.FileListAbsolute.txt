@@ -1,0 +1,13 @@
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\bin\Debug\net9.0\tutoriaBE.Core.deps.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\bin\Debug\net9.0\tutoriaBE.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\bin\Debug\net9.0\tutoriaBE.Core.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.csproj.AssemblyReference.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.AssemblyInfoInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.AssemblyInfo.cs
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.csproj.CoreCompileInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.sourcelink.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\refint\tutoriaBE.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\tutoriaBE.Core.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Core\obj\Debug\net9.0\ref\tutoriaBE.Core.dll

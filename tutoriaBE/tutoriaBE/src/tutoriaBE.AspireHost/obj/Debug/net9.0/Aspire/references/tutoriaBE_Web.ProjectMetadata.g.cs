@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class tutoriaBE_Web : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\_Projects\tutoriaApp\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\tutoriaBE.Web.csproj""";
+    public string ProjectPath => """C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\tutoriaBE.Web.csproj""";
 }

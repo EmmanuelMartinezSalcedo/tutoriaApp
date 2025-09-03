@@ -1,0 +1,16 @@
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\bin\Debug\net9.0\tutoriaBE.UseCases.deps.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\bin\Debug\net9.0\tutoriaBE.UseCases.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\bin\Debug\net9.0\tutoriaBE.UseCases.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\bin\Debug\net9.0\tutoriaBE.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\bin\Debug\net9.0\tutoriaBE.Core.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.csproj.AssemblyReference.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.AssemblyInfoInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.AssemblyInfo.cs
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.csproj.CoreCompileInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.sourcelink.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaB.ACB6C574.Up2Date
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\refint\tutoriaBE.UseCases.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\tutoriaBE.UseCases.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.UseCases\obj\Debug\net9.0\ref\tutoriaBE.UseCases.dll

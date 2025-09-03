@@ -8,7 +8,8 @@ public class Course : EntityBase, IAggregateRoot
   // -----------------------------
   // Navigation properties
   // -----------------------------
-  public ICollection<TutorCourse> TutorCourses { get; private set; } = new List<TutorCourse>();
+
+  public List<TutorCourse>? TutorCourses { get; private set; };
 
   // -----------------------------
   // Constructors
@@ -26,15 +27,33 @@ public class Course : EntityBase, IAggregateRoot
   // Update methods
   // -----------------------------
 
-  public Course UpdateTitle(string title)
+  public Result UpdateTitle(string title)
   {
-    Title = Guard.Against.NullOrEmpty(title, nameof(title));
-    return this;
+    if (string.IsNullOrWhiteSpace(title))
+    {
+      return Result.Invalid(new ValidationError
+      {
+        Identifier = nameof(title),
+        ErrorMessage = "Title cannot be empty"
+      });
+    }
+
+    Title = title;
+    return Result.Success();
   }
 
-  public Course UpdateDescription(string description)
+  public Result UpdateDescription(string description)
   {
-    Description = Guard.Against.NullOrEmpty(description, nameof(description));
-    return this;
+    if (string.IsNullOrWhiteSpace(description))
+    {
+      return Result.Invalid(new ValidationError
+      {
+        Identifier = nameof(description),
+        ErrorMessage = "Description cannot be empty"
+      });
+    }
+
+    Description = description;
+    return Result.Success();
   }
 }

@@ -1,0 +1,6 @@
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.csproj.AssemblyReference.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.AssemblyInfoInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.AssemblyInfo.cs
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.csproj.CoreCompileInputs.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.sourcelink.json
