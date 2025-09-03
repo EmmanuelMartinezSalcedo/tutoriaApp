@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj": {}
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj": {}
   },
   "projects": {
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
         "projectName": "tutoriaBE.Core",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -157,25 +156,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
         "projectName": "tutoriaBE.Infrastructure",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -184,18 +183,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
               },
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
               }
             }
           }
@@ -211,7 +209,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -357,25 +355,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj",
         "projectName": "tutoriaBE.ServiceDefaults",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -384,7 +382,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -404,7 +401,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -517,25 +514,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
         "projectName": "tutoriaBE.UseCases",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -544,15 +541,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj"
               }
             }
           }
@@ -568,7 +564,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -658,25 +654,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj",
         "projectName": "tutoriaBE.Web",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -685,21 +681,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj"
               },
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.ServiceDefaults\\tutoriaBE.ServiceDefaults.csproj"
               },
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
               }
             }
           }
@@ -715,7 +710,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -845,25 +840,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj": {
+    "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj",
+        "projectUniqueName": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj",
         "projectName": "tutoriaBE.FunctionalTests",
-        "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\obj\\",
+        "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\tutoriaBE.FunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
+        "outputPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.FunctionalTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -872,21 +867,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj"
               },
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj"
               },
-              "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj": {
-                "projectPath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj"
+              "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj": {
+                "projectPath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj"
               }
             }
           }
@@ -902,7 +896,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -1021,7 +1015,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

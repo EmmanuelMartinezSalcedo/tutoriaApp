@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Qyt6C6ab7gs=",
+  "dgSpecHash": "UX3fzRtf4fs=",
   "success": true,
-  "projectFilePath": "C:\\_Projects\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
+  "projectFilePath": "C:\\_Projects\\tutoriaApp\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\ardalis.result\\10.1.0\\ardalis.result.10.1.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\ardalis.sharedkernel\\3.0.1\\ardalis.sharedkernel.3.0.1.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\ardalis.smartenum\\8.2.0\\ardalis.smartenum.8.2.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512"
+    "C:\\Users\\marti\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\ardalis.result\\10.1.0\\ardalis.result.10.1.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\ardalis.sharedkernel\\3.0.1\\ardalis.sharedkernel.3.0.1.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\ardalis.smartenum\\8.2.0\\ardalis.smartenum.8.2.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.6\\microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512",
+    "C:\\Users\\marti\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.6\\microsoft.extensions.logging.abstractions.9.0.6.nupkg.sha512"
   ],
   "logs": []
 }

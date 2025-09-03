@@ -8,5 +8,5 @@ namespace Projects;
 public class tutoriaBE_AspireHost
 {
     private tutoriaBE_AspireHost() { }
-    public static string ProjectPath => """C:\_Projects\tutoriaBE\tutoriaBE\src\tutoriaBE.AspireHost""";
+    public static string ProjectPath => """C:\_Projects\tutoriaApp\tutoriaBE\tutoriaBE\src\tutoriaBE.AspireHost""";
 }
