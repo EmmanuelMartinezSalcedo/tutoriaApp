@@ -1,6 +1,4 @@
-﻿using tutoriaBE.Core.UserAggregate.Entities;
-
-namespace tutoriaBE.Core.SessionAggregate;
+﻿namespace tutoriaBE.Core.SessionAggregate;
 
 public class Review : EntityBase
 {

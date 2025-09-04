@@ -4,3 +4,17 @@ C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.AssemblyInfo.cs
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.csproj.CoreCompileInputs.cache
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.sourcelink.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Infrastructure.deps.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Infrastructure.runtimeconfig.json
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Infrastructure.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Infrastructure.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.UseCases.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.Core.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\bin\Debug\net9.0\tutoriaBE.UseCases.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaB.009B4984.Up2Date
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\refint\tutoriaBE.Infrastructure.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.pdb
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\tutoriaBE.Infrastructure.genruntimeconfig.cache
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Infrastructure\obj\Debug\net9.0\ref\tutoriaBE.Infrastructure.dll

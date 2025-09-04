@@ -9,6 +9,8 @@ public class Chat : EntityBase
   // Navigation properties
   // -----------------------------
 
+  public List<Message>? Messages { get; private set; }
+
   // -----------------------------
   // Constructors
   // -----------------------------

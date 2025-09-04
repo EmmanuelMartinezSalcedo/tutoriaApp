@@ -11,26 +11,22 @@ public class Email : IEquatable<Email>
 
   public static Result<Email> Create(string value)
   {
-    if (string.IsNullOrWhiteSpace(value))
+    var errors = EmailPolicy.Validate(value);
+    if (errors.Any())
     {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(Email),
-        ErrorMessage = "Email cannot be empty"
-      });
-    }
+      var validationErrors = errors
+        .Select(error => new ValidationError
+        {
+          Identifier = nameof(Email),
+          ErrorMessage = error
+        }).ToList();
 
-    if (!System.Text.RegularExpressions.Regex.IsMatch(value, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(Email),
-        ErrorMessage = "Invalid email format"
-      });
+      return Result.Invalid(validationErrors);
     }
 
     return Result.Success(new Email(value));
   }
+
 
   public override bool Equals(object? obj) => Equals(obj as Email);
 

@@ -1,0 +1,6 @@
+{
+  "tutoriaBE.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core",
+  "tutoriaBE.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure",
+  "tutoriaBE.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.UnitTests",
+  "tutoriaBE.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases"
+}

@@ -1,5 +1,7 @@
-﻿using tutoriaBE.Core.UserAggregate.ValueObjects;
+﻿using tutoriaBE.Core.SessionAggregate;
 using tutoriaBE.Core.UserAggregate.Entities;
+using tutoriaBE.Core.UserAggregate.Policies;
+using tutoriaBE.Core.UserAggregate.ValueObjects;
 
 namespace tutoriaBE.Core.UserAggregate;
 
@@ -18,6 +20,7 @@ public class User : EntityBase, IAggregateRoot
   // -----------------------------
 
   public Tutor? TutorProfile { get; private set; }
+  public List<Message>? Messages { get; private set; }
 
   // -----------------------------
   // Constructors
@@ -25,25 +28,118 @@ public class User : EntityBase, IAggregateRoot
 
   private User() { } // EF Core
 
-  public User(string firstName, string lastName, string email, string password, IPasswordHasher hasher, string? profilePhotoPath = null)
+  public static Result<User> Create(string firstName, string lastName, string email, string password, IPasswordHasher hasher)
   {
-    UpdateFirstName(firstName);
-    UpdateLastName(lastName);
+    var validationErrors = new List<ValidationError>();
+    var user = new User();
 
+    // First Name
+    var firstNameErrors = FirstNamePolicy.Validate(firstName);
+    if (firstNameErrors.Any())
+    {
+      var firstNameValidationErrors = firstNameErrors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(firstName),
+            ErrorMessage = error
+          })
+          .ToList();
+      validationErrors.AddRange(firstNameValidationErrors);
+    }
+    else
+    {
+      user.FirstName = firstName;
+    }
+
+    // Last Name
+    var lastNameErrors = LastNamePolicy.Validate(lastName);
+    if (lastNameErrors.Any())
+    {
+      var lastNameValidationErrors = lastNameErrors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(lastName),
+            ErrorMessage = error
+          })
+          .ToList();
+      validationErrors.AddRange(lastNameValidationErrors);
+    }
+    else
+    {
+      user.LastName = lastName;
+    }
+
+    // Email
     var emailResult = Email.Create(email);
     if (emailResult.IsInvalid())
-      throw new ArgumentException(emailResult.Errors.First(), nameof(email));
+    {
+      validationErrors.AddRange(emailResult.ValidationErrors);
+    }
+    else
+    {
+      user.Email = emailResult.Value;
+    }
 
-    Email = emailResult.Value;
+    // Password
+    var passwordErrors = PasswordPolicy.Validate(password);
+    if (passwordErrors.Any())
+    {
+      var passwordValidationErrors = passwordErrors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(password),
+            ErrorMessage = error
+          })
+          .ToList();
+      validationErrors.AddRange(passwordValidationErrors);
+    }
+    else
+    {
+      user.PasswordHash = hasher.Hash(password);
+    }
 
-    PasswordHash = hasher.Hash(password);
-    UpdateProfilePhoto(profilePhotoPath);
-    CreatedAt = DateTime.UtcNow;
+    if (validationErrors.Any())
+    {
+      return Result.Invalid(validationErrors);
+    }
+
+    return Result.Success(user);
   }
 
   // -----------------------------
   // Update methods
   // -----------------------------
+
+  public Result SetEmail(string newEmail)
+  {
+    var emailResult = Email.Create(newEmail);
+    if (emailResult.IsInvalid())
+    {
+      return Result.Invalid(emailResult.ValidationErrors);
+    }
+
+    Email = emailResult.Value;
+    return Result.Success();
+  }
+
+  public Result SetPassword(string newPassword, IPasswordHasher hasher)
+  {
+    var errors = PasswordPolicy.Validate(newPassword);
+    if (errors.Any())
+    {
+      var validationErrors = errors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(newPassword),
+            ErrorMessage = error
+          })
+          .ToList();
+      return Result.Invalid(validationErrors);
+    }
+
+    PasswordHash = hasher.Hash(newPassword);
+    return Result.Success();
+  }
 
   public Result UpdateFirstName(string firstName)
   {
@@ -73,7 +169,6 @@ public class User : EntityBase, IAggregateRoot
     LastName = lastName;
     return Result.Success();
   }
-
   public Result UpdateProfilePhoto(string? path)
   {
     if (string.IsNullOrWhiteSpace(path))
@@ -86,51 +181,6 @@ public class User : EntityBase, IAggregateRoot
     }
 
     ProfilePhotoPath = path;
-    return Result.Success();
-  }
-
-  public Result UpdatePassword(string currentPassword, string newPassword, IPasswordHasher hasher)
-  {
-    Guard.Against.NullOrEmpty(currentPassword, nameof(currentPassword));
-    Guard.Against.NullOrEmpty(newPassword, nameof(newPassword));
-    Guard.Against.Null(hasher, nameof(hasher));
-
-    if (!hasher.Verify(currentPassword, PasswordHash))
-    {
-      return Result.Unauthorized("Current password is incorrect");
-    }
-
-    if (newPassword.Length < 8)
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(newPassword),
-        ErrorMessage = "New password must be at least 8 characters"
-      });
-    }
-
-    if (!newPassword.Any(char.IsUpper) ||
-        !newPassword.Any(char.IsLower) ||
-        !newPassword.Any(char.IsDigit))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(newPassword),
-        ErrorMessage = "New password must contain uppercase, lowercase and numbers"
-      });
-    }
-
-    if (hasher.Verify(newPassword, PasswordHash))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(newPassword),
-        ErrorMessage = "New password must be different than current"
-      });
-    }
-
-    PasswordHash = hasher.Hash(newPassword);
-
     return Result.Success();
   }
 }

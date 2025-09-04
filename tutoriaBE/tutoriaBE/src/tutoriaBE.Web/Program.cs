@@ -1,13 +1,15 @@
 ﻿using System.Text;
-using Microsoft.AspNetCore.Identity;
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using tutoriaBE.Core.Interfaces;
 using tutoriaBE.Infrastructure.Data;
+using tutoriaBE.Infrastructure.Security;
 using tutoriaBE.UseCases.Contributors.Create;
 using tutoriaBE.Web.Configurations;
-using tutoriaBE.Infrastructure.Security;
-using tutoriaBE.Core.Interfaces;
+using tutoriaBE.Web.Users;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,7 +45,8 @@ builder.Services.AddFastEndpoints()
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSqlConnection"))
            .EnableDetailedErrors()
-           .EnableSensitiveDataLogging());
+           .EnableSensitiveDataLogging(),
+    ServiceLifetime.Scoped);
 
 builder.AddServiceDefaults();
 
@@ -89,6 +92,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
+builder.Services.AddScoped<IValidator<CreateUserRequest>, CreateUserValidator>();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {

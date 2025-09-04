@@ -9,7 +9,7 @@ public class Course : EntityBase, IAggregateRoot
   // Navigation properties
   // -----------------------------
 
-  public List<TutorCourse>? TutorCourses { get; private set; };
+  public List<TutorCourse>? TutorCourses { get; private set; }
 
   // -----------------------------
   // Constructors

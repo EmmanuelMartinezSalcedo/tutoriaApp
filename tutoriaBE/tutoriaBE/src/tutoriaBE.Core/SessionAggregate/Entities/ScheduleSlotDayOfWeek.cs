@@ -1,6 +1,6 @@
 ﻿namespace tutoriaBE.Core.UserAggregate;
 
-public class ScheduleSlotDayOfWeek : SmartEnum<UserRole>
+public class ScheduleSlotDayOfWeek : SmartEnum<ScheduleSlotDayOfWeek>
 {
   public static readonly ScheduleSlotDayOfWeek Monday = new(nameof(Monday), 1);
   public static readonly ScheduleSlotDayOfWeek Tuesday = new(nameof(Tuesday), 2);

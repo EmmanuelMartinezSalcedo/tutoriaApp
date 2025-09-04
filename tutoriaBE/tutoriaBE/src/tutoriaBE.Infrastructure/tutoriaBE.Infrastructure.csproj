@@ -15,11 +15,16 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" />
     <PackageReference Include="Microsoft.Extensions.Logging" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <PackageReference Include="SQLite" />
   </ItemGroup>
   
   <ItemGroup>
     <ProjectReference Include="..\tutoriaBE.Core\tutoriaBE.Core.csproj" />
     <ProjectReference Include="..\tutoriaBE.UseCases\tutoriaBE.UseCases.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 </Project>

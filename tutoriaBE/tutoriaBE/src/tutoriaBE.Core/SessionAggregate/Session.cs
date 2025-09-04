@@ -1,4 +1,6 @@
-﻿namespace tutoriaBE.Core.SessionAggregate;
+﻿using tutoriaBE.Core.CourseAggregate;
+
+namespace tutoriaBE.Core.SessionAggregate;
 
 public class Session : EntityBase, IAggregateRoot
 {
@@ -12,6 +14,9 @@ public class Session : EntityBase, IAggregateRoot
   // Navigation properties
   // -----------------------------
 
+  public List<SessionSlot>? SessionSlots { get; private set; }
+  public Review? Review { get; private set; }
+  public Chat? Chat { get; private set; }
 
   // -----------------------------
   // Update methods

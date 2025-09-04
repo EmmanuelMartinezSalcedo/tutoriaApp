@@ -283,6 +283,11 @@
               "version": "[9.0.6, )",
               "versionCentrallyManaged": true
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
             "SQLite": {
               "target": "Package",
               "version": "[3.13.0, )",

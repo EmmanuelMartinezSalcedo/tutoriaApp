@@ -13,6 +13,8 @@ public class ScheduleSlot : EntityBase
   // Navigation properties
   // -----------------------------
 
+  public List<SessionSlot>? SessionSlots { get; private set; }
+
   // -----------------------------
   // Constructors
   // -----------------------------

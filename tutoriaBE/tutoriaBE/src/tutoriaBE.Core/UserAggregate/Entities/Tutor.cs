@@ -5,15 +5,13 @@ namespace tutoriaBE.Core.UserAggregate.Entities;
 
 public class Tutor : EntityBase
 {
-  public int UserId { get; private set; }
   public string? Bio { get; private set; }
 
   // -----------------------------
   // Navigation properties
   // -----------------------------
-
   public List<TutorCourse>? TutorCourses { get; private set; }
-  public List<ScheduleSlot>? scheduleSlots { get; private set; }
+  public List<ScheduleSlot>? ScheduleSlots { get; private set; }
 
   // -----------------------------
   // Constructors
@@ -22,7 +20,7 @@ public class Tutor : EntityBase
 
   public Tutor(int userId, string? bio = null)
   {
-    UserId = Guard.Against.NegativeOrZero(userId, nameof(userId));
+    Id = Guard.Against.NegativeOrZero(userId, nameof(userId));
     UpdateBio(bio);
   }
 

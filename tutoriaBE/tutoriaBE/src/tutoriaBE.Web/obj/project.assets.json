@@ -3246,6 +3246,7 @@
           "Microsoft.Extensions.Configuration": "9.0.6",
           "Microsoft.Extensions.Logging": "9.0.6",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.6",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "SQLite": "3.13.0",
           "tutoriaBE.Core": "1.0.0",
           "tutoriaBE.UseCases": "1.0.0"

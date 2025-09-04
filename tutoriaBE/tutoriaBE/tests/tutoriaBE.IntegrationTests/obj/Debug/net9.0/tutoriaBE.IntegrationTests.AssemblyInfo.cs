@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tutoriaBE.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f07c6e3d42f6991503475b21eb389b8bf2705fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58b2e7c7ac430672d69ceb71bd17db76c75b02ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("tutoriaBE.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tutoriaBE.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

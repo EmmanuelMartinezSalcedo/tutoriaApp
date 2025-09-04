@@ -13,8 +13,8 @@ public class CourseConfiguration : IEntityTypeConfiguration<Course>
            .HasMaxLength(1000);
 
     builder.HasMany(c => c.TutorCourses)
-           .WithOne(tc => tc.Course)
-           .HasForeignKey(tc => tc.CourseId)
-           .OnDelete(DeleteBehavior.Cascade);
+       .WithOne()
+       .HasForeignKey(tc => tc.CourseId)
+       .OnDelete(DeleteBehavior.Cascade);
   }
 }
