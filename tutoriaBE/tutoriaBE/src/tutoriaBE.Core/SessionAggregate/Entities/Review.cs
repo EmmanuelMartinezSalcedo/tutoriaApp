@@ -14,7 +14,7 @@ public class Review : EntityBase
   // -----------------------------
   // Constructors
   // -----------------------------
-  private Review() { } // EF Core
+  protected Review() { } // EF Core
 
   public Review(int sessionId, decimal rating, string comment)
   {

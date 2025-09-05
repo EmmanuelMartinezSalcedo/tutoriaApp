@@ -18,9 +18,4 @@ public static class LastNamePolicy
 
     return errors;
   }
-
-  public static bool IsValid(string password)
-  {
-    return HasMinimumLength(password);
-  }
 }

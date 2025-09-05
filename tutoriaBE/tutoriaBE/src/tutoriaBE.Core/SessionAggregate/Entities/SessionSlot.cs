@@ -9,10 +9,12 @@ public class SessionSlot : EntityBase
   // Navigation properties
   // -----------------------------
 
+  public virtual ScheduleSlot? ScheduleSlots { get; private set; }
+
   // -----------------------------
   // Constructors
   // -----------------------------
-  private SessionSlot() { } // EF Core
+  protected SessionSlot() { } // EF Core
 
   public SessionSlot(int sessionId, int scheduleSlotId)
   {

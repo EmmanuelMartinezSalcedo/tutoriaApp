@@ -2,24 +2,18 @@
 using FluentValidation;
 using tutoriaBE.Core.UserAggregate;
 using tutoriaBE.Core.UserAggregate.Policies;
-using tutoriaBE.Infrastructure.Data.Config;
 
 namespace tutoriaBE.Web.Users;
 
 public class CreateUserValidator : Validator<CreateUserRequest>
 {
-  private readonly IRepository<User> _repository;
-
-  public CreateUserValidator(IRepository<User> repository)
+  public CreateUserValidator()
   {
-    _repository = repository;
 
     RuleFor(x => x.FirstName)
         .Custom((firstName, context) =>
         {
-          if (firstName is null)
-            return;
-          var errors = FirstNamePolicy.Validate(firstName);
+          var errors = FirstNamePolicy.Validate(firstName!);
           foreach (var error in errors)
           {
             context.AddFailure(error);
@@ -29,9 +23,7 @@ public class CreateUserValidator : Validator<CreateUserRequest>
     RuleFor(x => x.LastName)
         .Custom((lastName, context) =>
         {
-          if (lastName is null)
-            return;
-          var errors = LastNamePolicy.Validate(lastName);
+          var errors = LastNamePolicy.Validate(lastName!);
           foreach (var error in errors)
           {
             context.AddFailure(error);
@@ -39,19 +31,12 @@ public class CreateUserValidator : Validator<CreateUserRequest>
         });
 
     RuleFor(x => x.Email)
-        .CustomAsync(async (email, context, cancellation) =>
+        .Custom((email, context) =>
         {
-          if (email is null) return;
-
-          foreach (var error in EmailPolicy.Validate(email))
-            context.AddFailure(error);
-
-          if (EmailPolicy.IsValidFormat(email))
+          var errors = EmailPolicy.Validate(email!);
+          foreach (var error in errors)
           {
-            var existingUser = await _repository.FirstOrDefaultAsync(
-                new UserByEmailSpec(email), cancellation);
-            if (existingUser != null)
-              context.AddFailure("This email is already registered.");
+            context.AddFailure(error);
           }
         });
 
@@ -59,9 +44,7 @@ public class CreateUserValidator : Validator<CreateUserRequest>
     RuleFor(x => x.Password)
         .Custom((password, context) =>
         {
-          if (password is null)
-            return;
-          var errors = PasswordPolicy.Validate(password);
+          var errors = PasswordPolicy.Validate(password!);
           foreach (var error in errors)
           {
             context.AddFailure(error);

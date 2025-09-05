@@ -14,7 +14,7 @@ public class Message : EntityBase
   // -----------------------------
   // Constructors
   // -----------------------------
-  private Message() { } // EF Core
+  protected Message() { } // EF Core
 
   public Message(int chatId, int senderId, string content)
   {

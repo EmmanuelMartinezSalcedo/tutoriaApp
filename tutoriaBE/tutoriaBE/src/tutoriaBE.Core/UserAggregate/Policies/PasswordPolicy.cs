@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics.Metrics;
-using tutoriaBE.Core.UserAggregate.ValueObjects;
-
-namespace tutoriaBE.Core.UserAggregate.Policies;
+﻿namespace tutoriaBE.Core.UserAggregate.Policies;
 
 public static class PasswordPolicy
 {
@@ -55,14 +50,5 @@ public static class PasswordPolicy
       errors.Add("Password must contain at least one symbol.");
 
     return errors;
-  }
-
-  public static bool IsValid(string password)
-  {
-    return HasMinimumLength(password) &&
-           HasUppercase(password) &&
-           HasLowercase(password) &&
-           HasDigit(password) &&
-           HasSymbol(password);
   }
 }

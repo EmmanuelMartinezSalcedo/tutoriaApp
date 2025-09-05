@@ -1,4 +1,6 @@
-﻿namespace tutoriaBE.Core.CourseAggregate;
+﻿using tutoriaBE.Core.CourseAggregate.Policies;
+
+namespace tutoriaBE.Core.CourseAggregate;
 
 public class Course : EntityBase, IAggregateRoot
 {
@@ -9,51 +11,66 @@ public class Course : EntityBase, IAggregateRoot
   // Navigation properties
   // -----------------------------
 
-  public List<TutorCourse>? TutorCourses { get; private set; }
+  public virtual List<TutorCourse>? TutorCourses { get; private set; }
 
   // -----------------------------
   // Constructors
   // -----------------------------
 
-  private Course() { } // EF Core
+  protected Course() { } // EF Core
 
-  public Course(string title, string description)
+  public static Result<Course> Create(string title, string description)
   {
-    UpdateTitle(title);
-    UpdateDescription(description);
+    var validationErrors = new List<ValidationError>();
+    var course = new Course();
+
+    // Title
+    var titleErrors = TitlePolicy.Validate(title);
+    if (titleErrors.Any())
+    {
+      var titleValidationErrors = titleErrors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(title),
+            ErrorMessage = error
+          })
+          .ToList();
+      validationErrors.AddRange(titleValidationErrors);
+    }
+    else
+    {
+      course.Title = title;
+    }
+
+    // Description
+    var descriptionErrors = DescriptionPolicy.Validate(description);
+    if (descriptionErrors.Any())
+    {
+      var descriptionValidationErrors = descriptionErrors
+          .Select(error => new ValidationError
+          {
+            Identifier = nameof(description),
+            ErrorMessage = error
+          })
+          .ToList();
+      validationErrors.AddRange(descriptionValidationErrors);
+    }
+    else
+    {
+      course.Description = description;
+    }
+
+    if (validationErrors.Any())
+    {
+      return Result.Invalid(validationErrors);
+    }
+
+    return Result.Success(course);
   }
 
   // -----------------------------
   // Update methods
   // -----------------------------
 
-  public Result UpdateTitle(string title)
-  {
-    if (string.IsNullOrWhiteSpace(title))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(title),
-        ErrorMessage = "Title cannot be empty"
-      });
-    }
-
-    Title = title;
-    return Result.Success();
-  }
-
-  public Result UpdateDescription(string description)
-  {
-    if (string.IsNullOrWhiteSpace(description))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(description),
-        ErrorMessage = "Description cannot be empty"
-      });
-    }
-
-    Description = description;
-    return Result.Success();
-  }
+  
 }

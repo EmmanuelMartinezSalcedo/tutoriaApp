@@ -578,3 +578,5 @@ C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\obj\Debug\net9.0\tuto
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\obj\Debug\net9.0\tutoriaBE.Web.pdb
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\obj\Debug\net9.0\tutoriaBE.Web.genruntimeconfig.cache
 C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\obj\Debug\net9.0\ref\tutoriaBE.Web.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\bin\Debug\net9.0\Castle.Core.dll
+C:\_Projects\tutoria\tutoriaBE\tutoriaBE\src\tutoriaBE.Web\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll

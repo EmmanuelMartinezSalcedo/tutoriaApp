@@ -9,12 +9,12 @@ public class Chat : EntityBase
   // Navigation properties
   // -----------------------------
 
-  public List<Message>? Messages { get; private set; }
+  public virtual List<Message>? Messages { get; private set; }
 
   // -----------------------------
   // Constructors
   // -----------------------------
-  private Chat() { } // EF Core
+  protected Chat() { } // EF Core
 
   public Chat(int sessionId)
   {

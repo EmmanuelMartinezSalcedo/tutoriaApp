@@ -49,6 +49,315 @@
         }
       }
     },
+    "/Users/login": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "tutoriaBEWebUsersLogin",
+        "requestBody": {
+          "x-name": "LoginUserRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginUserRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Login successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginUserResponse"
+                },
+                "example": {
+                  "message": "Login successful"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Users/logout": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "tutoriaBEWebUsersLogout",
+        "responses": {
+          "200": {
+            "description": "Logout successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LoginUserResponse"
+                },
+                "example": {
+                  "message": "Logout successful"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Users/me": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "tutoriaBEWebUsersMe",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MeUserResponse"
+                },
+                "example": {
+                  "id": 1234,
+                  "firstName": "Jhon",
+                  "lastName": "Doe"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Users/promote": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "tutoriaBEWebUsersPromote",
+        "requestBody": {
+          "x-name": "PromoteUserRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PromoteUserRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PromoteUserResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Tutors/CreateScheduleSlot": {
+      "post": {
+        "tags": [
+          "Tutors"
+        ],
+        "operationId": "tutoriaBEWebTutorsCreateScheduleSlot",
+        "requestBody": {
+          "x-name": "CreateScheduleSlotTutorRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateScheduleSlotTutorRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateScheduleSlotTutorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Tutors/Teach": {
+      "post": {
+        "tags": [
+          "Tutors"
+        ],
+        "operationId": "tutoriaBEWebTutorsTeachCourse",
+        "requestBody": {
+          "x-name": "TeachCourseTutorRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TeachCourseTutorRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TeachCourseTutorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Sessions/Book": {
+      "post": {
+        "tags": [
+          "Sessions"
+        ],
+        "operationId": "tutoriaBEWebSessionsBook",
+        "requestBody": {
+          "x-name": "BookSessionRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BookSessionRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BookSessionResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Courses": {
+      "post": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "tutoriaBEWebCoursesCreate",
+        "requestBody": {
+          "x-name": "CreateCourseRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCourseRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateCourseResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/Contributors": {
       "post": {
         "tags": [
@@ -252,10 +561,6 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "name": {
             "type": "string"
           }
@@ -325,6 +630,298 @@
                 "type": "string"
               }
             }
+          }
+        }
+      },
+      "LoginUserResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "LoginUserRequest": {
+        "type": "object",
+        "example": {
+          "email": "john.doe@example.com",
+          "password": "StrongPassword123!"
+        },
+        "additionalProperties": false,
+        "required": [
+          "email",
+          "password"
+        ],
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "minLength": 1,
+            "example": "john.doe@example.com"
+          },
+          "password": {
+            "type": "string",
+            "minLength": 1,
+            "example": "StrongPassword123!"
+          }
+        }
+      },
+      "MeUserResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "PromoteUserResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          }
+        }
+      },
+      "PromoteUserRequest": {
+        "type": "object",
+        "example": {
+          "id": 1
+        },
+        "additionalProperties": false,
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          }
+        }
+      },
+      "CreateScheduleSlotTutorResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "day": {
+            "type": "string",
+            "nullable": true
+          },
+          "startTime": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        }
+      },
+      "CreateScheduleSlotTutorRequest": {
+        "type": "object",
+        "example": {
+          "tutorId": 1,
+          "day": "Monday",
+          "startHour": 7
+        },
+        "additionalProperties": false,
+        "required": [
+          "tutorId",
+          "day",
+          "startHour"
+        ],
+        "properties": {
+          "tutorId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          },
+          "day": {
+            "type": "string",
+            "minLength": 1,
+            "example": "Monday"
+          },
+          "startHour": {
+            "type": "integer",
+            "format": "int32",
+            "example": 7
+          }
+        }
+      },
+      "TeachCourseTutorResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "hourlyPrice": {
+            "type": "number",
+            "format": "decimal",
+            "nullable": true
+          }
+        }
+      },
+      "TeachCourseTutorRequest": {
+        "type": "object",
+        "example": {
+          "tutorId": 1,
+          "courseId": 2,
+          "hourlyPrice": 50.0
+        },
+        "additionalProperties": false,
+        "required": [
+          "tutorId",
+          "courseId",
+          "hourlyPrice"
+        ],
+        "properties": {
+          "tutorId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          },
+          "courseId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 2
+          },
+          "hourlyPrice": {
+            "type": "number",
+            "format": "decimal",
+            "example": 50.0
+          }
+        }
+      },
+      "BookSessionResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "day": {
+            "type": "string"
+          },
+          "startHour": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "endHour": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "BookSessionRequest": {
+        "type": "object",
+        "example": {
+          "tutorId": 1,
+          "studentId": 2,
+          "courseId": 3,
+          "day": "Monday",
+          "scheduleSlotIds": [
+            101,
+            102
+          ]
+        },
+        "additionalProperties": false,
+        "required": [
+          "tutorId",
+          "studentId",
+          "courseId",
+          "day",
+          "scheduleSlotIds"
+        ],
+        "properties": {
+          "tutorId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 1
+          },
+          "studentId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 2
+          },
+          "courseId": {
+            "type": "integer",
+            "format": "int32",
+            "example": 3
+          },
+          "day": {
+            "type": "string",
+            "minLength": 1,
+            "example": "Monday"
+          },
+          "scheduleSlotIds": {
+            "type": "array",
+            "example": [
+              101,
+              102
+            ],
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        }
+      },
+      "CreateCourseResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      },
+      "CreateCourseRequest": {
+        "type": "object",
+        "example": {
+          "title": "Mathematics",
+          "description": "The formal science of numbers, quantity, space, and structure, using abstract objects and logical reasoning to discover patterns and relationships"
+        },
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "description"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "example": "Mathematics"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "example": "The formal science of numbers, quantity, space, and structure, using abstract objects and logical reasoning to discover patterns and relationships"
           }
         }
       },

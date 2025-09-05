@@ -3,112 +3,44 @@
   "WorkspaceRootPath": "C:\\_Projects\\tutoria\\tutoriaBE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.usecases\\tutors\\teachcourse\\teachcoursetutorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.usecases\\tutors\\teachcourse\\teachcoursetutorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\sessions\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\sessions\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\tutors\\createscheduleslot.createscheduleslottutorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\tutors\\createscheduleslot.createscheduleslottutorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\create.createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\create.createuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.usecases\\users\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.usecases\\users\\createuserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\create.createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\create.createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9DB4113-A1D8-404E-8B84-63AAC88E5AEF}|tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\tests\\tutoriabe.integrationtests\\data\\baseefrepotestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9DB4113-A1D8-404E-8B84-63AAC88E5AEF}|tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\tutoriaBE.IntegrationTests.csproj|solutionrelative:tutoriabe\\tests\\tutoriabe.integrationtests\\data\\baseefrepotestfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\lastnamepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\lastnamepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\firstnamepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\firstnamepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\passwordpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\passwordpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.usecases\\users\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.usecases\\users\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\emailpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\policies\\emailpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\useraggregate\\specifications\\userbyemailspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\useraggregate\\specifications\\userbyemailspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\create.createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\create.createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\contributoraggregate\\specifications\\contributorbyidspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\contributoraggregate\\specifications\\contributorbyidspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\create.createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\create.createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\sessions\\book.booksessionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\users\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\users\\userrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8718B3AF-2BEF-409F-8EBD-8B9980652640}|tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.infrastructure\\data\\config\\dataschemaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8718B3AF-2BEF-409F-8EBD-8B9980652640}|tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.infrastructure\\data\\config\\dataschemaconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\contributors\\create.createcontributorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.web\\contributors\\contributorrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5088D898-7424-4516-AA44-6D511F23EB70}|tutoriaBE\\src\\tutoriaBE.Web\\tutoriaBE.Web.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.web\\contributors\\contributorrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.usecases\\contributors\\create\\createcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF64D62-13BB-4BF0-84B6-8639E8D433FC}|tutoriaBE\\src\\tutoriaBE.UseCases\\tutoriaBE.UseCases.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.usecases\\contributors\\create\\createcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8718B3AF-2BEF-409F-8EBD-8B9980652640}|tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.infrastructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8718B3AF-2BEF-409F-8EBD-8B9980652640}|tutoriaBE\\src\\tutoriaBE.Infrastructure\\tutoriaBE.Infrastructure.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.infrastructure\\security\\bcryptpasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|c:\\_projects\\tutoria\\tutoriabe\\tutoriabe\\src\\tutoriabe.core\\sessionaggregate\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{509454AE-5949-43D0-945F-CEE0872C6FB5}|tutoriaBE\\src\\tutoriaBE.Core\\tutoriaBE.Core.csproj|solutionrelative:tutoriabe\\src\\tutoriabe.core\\sessionaggregate\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -117,346 +49,144 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 144,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseEfRepoTestFixture.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
-              "RelativeToolTip": "tutoriaBE\\tests\\tutoriaBE.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA0AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Book.BookSessionResponse.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionResponse.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionResponse.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionResponse.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T15:28:47.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Program.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Program.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Program.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAuwF4AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T15:25:53.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LastNamePolicy.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\LastNamePolicy.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\LastNamePolicy.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\LastNamePolicy.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\LastNamePolicy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T15:15:51.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FirstNamePolicy.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\FirstNamePolicy.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\FirstNamePolicy.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\FirstNamePolicy.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\FirstNamePolicy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:56:59.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmailPolicy.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\EmailPolicy.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\EmailPolicy.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\EmailPolicy.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\EmailPolicy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T05:23:26.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Email.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\ValueObjects\\Email.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\ValueObjects\\Email.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\ValueObjects\\Email.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\ValueObjects\\Email.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T05:18:29.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PasswordPolicy.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\PasswordPolicy.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\PasswordPolicy.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\PasswordPolicy.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Policies\\PasswordPolicy.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAIA7wCUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T04:51:19.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.CreateUserValidator.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:04:30.819Z",
+              "WhenOpened": "2025-09-05T09:56:53.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\User.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\User.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\User.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\User.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwEAAAAA6AAAAAAAAAA==",
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\SessionAggregate\\Session.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\SessionAggregate\\Session.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\SessionAggregate\\Session.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\SessionAggregate\\Session.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwCgAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:31:49.703Z",
+              "WhenOpened": "2025-09-05T09:56:04.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ContributorByIdSpec.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\ContributorAggregate\\Specifications\\ContributorByIdSpec.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\ContributorAggregate\\Specifications\\ContributorByIdSpec.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\ContributorAggregate\\Specifications\\ContributorByIdSpec.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\ContributorAggregate\\Specifications\\ContributorByIdSpec.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Book.BookSessionRequest.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionRequest.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionRequest.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionRequest.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:31:34.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserByEmailSpec.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Specifications\\UserByEmailSpec.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Specifications\\UserByEmailSpec.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Specifications\\UserByEmailSpec.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\UserAggregate\\Specifications\\UserByEmailSpec.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:31:27.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DataSchemaConstants.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Infrastructure\\Data\\Config\\DataSchemaConstants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:14:55.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.CreateContributorValidator.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorValidator.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorValidator.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorValidator.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:04:38.459Z",
+              "WhenOpened": "2025-09-05T09:55:01.997Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.CreateContributorResponse.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorResponse.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorResponse.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorResponse.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:03:31.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.CreateUserResponse.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:03:29.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.CreateContributorRequest.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorRequest.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorRequest.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorRequest.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.CreateContributorRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:01:31.906Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Create.CreateUserValidator.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:54:37.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 144,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeachCourseTutorHandler.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Tutors\\TeachCourse\\TeachCourseTutorHandler.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.UseCases\\Tutors\\TeachCourse\\TeachCourseTutorHandler.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Tutors\\TeachCourse\\TeachCourseTutorHandler.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.UseCases\\Tutors\\TeachCourse\\TeachCourseTutorHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T10:03:26.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T10:01:46.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateScheduleSlot.CreateScheduleSlotTutorValidator.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Tutors\\CreateScheduleSlot.CreateScheduleSlotTutorValidator.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Tutors\\CreateScheduleSlot.CreateScheduleSlotTutorValidator.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Tutors\\CreateScheduleSlot.CreateScheduleSlotTutorValidator.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Tutors\\CreateScheduleSlot.CreateScheduleSlotTutorValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:59:39.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.CreateUserRequest.cs",
               "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserRequest.cs",
               "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserRequest.cs",
               "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserRequest.cs",
               "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:01:30.389Z",
+              "WhenOpened": "2025-09-05T09:54:57.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAawBoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:00:40.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Create.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\Create.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T03:00:27.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserRecord.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\UserRecord.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\UserRecord.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\UserRecord.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\UserRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:59:49.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ContributorRecord.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\ContributorRecord.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\ContributorRecord.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\ContributorRecord.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Contributors\\ContributorRecord.cs",
+              "DocumentIndex": 6,
+              "Title": "Create.CreateUserResponse.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Users\\Create.CreateUserResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:59:39.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BCryptPasswordHasher.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\Security\\BCryptPasswordHasher.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Infrastructure\\Security\\BCryptPasswordHasher.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Infrastructure\\Security\\BCryptPasswordHasher.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Infrastructure\\Security\\BCryptPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:36:56.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\Interfaces\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Core\\Interfaces\\IPasswordHasher.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Core\\Interfaces\\IPasswordHasher.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Core\\Interfaces\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:36:39.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateContributorHandler.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:32:54.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUserHandler.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserHandler.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserHandler.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserHandler.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:32:52.487Z",
+              "WhenOpened": "2025-09-05T09:56:55.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserCommand.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserCommand.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.UseCases\\Users\\CreateUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Book.BookSessionValidator.cs",
+              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionValidator.cs",
+              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionValidator.cs",
+              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionValidator.cs",
+              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.Web\\Sessions\\Book.BookSessionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:31:27.728Z",
+              "WhenOpened": "2025-09-05T09:54:36.357Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateContributorCommand.cs",
-              "DocumentMoniker": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
-              "RelativeDocumentMoniker": "tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
-              "ToolTip": "C:\\_Projects\\tutoria\\tutoriaBE\\tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
-              "RelativeToolTip": "tutoriaBE\\src\\tutoriaBE.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T02:27:15.959Z"
             }
           ]
         }

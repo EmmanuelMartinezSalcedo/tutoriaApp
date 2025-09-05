@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tutoriaBE.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f07c6e3d42f6991503475b21eb389b8bf2705fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f37390e8e6c65385fae412dc0211b57709ec0cb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("tutoriaBE.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tutoriaBE.ServiceDefaults")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,4 @@
-﻿using tutoriaBE.Core.UserAggregate;
-
-namespace tutoriaBE.Core.CourseAggregate;
+﻿namespace tutoriaBE.Core.CourseAggregate;
 
 public class TutorCourse : EntityBase
 {
@@ -15,7 +13,7 @@ public class TutorCourse : EntityBase
   // -----------------------------
   // Constructors
   // -----------------------------
-  private TutorCourse() { } // EF Core
+  protected TutorCourse() { } // EF Core
 
   public TutorCourse(int courseId, int tutorId, decimal hourlyPrice)
   {

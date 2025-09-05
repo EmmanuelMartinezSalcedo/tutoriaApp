@@ -28,7 +28,7 @@ public class Create(IMediator _mediator)
 
     if (result.IsSuccess)
     {
-      Response = new CreateUserResponse(result.Value, request.FirstName!);
+      Response = new CreateUserResponse(request.FirstName!);
       return;
     }
     switch (result.Status)

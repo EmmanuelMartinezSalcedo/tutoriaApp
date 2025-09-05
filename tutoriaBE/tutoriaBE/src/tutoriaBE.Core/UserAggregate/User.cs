@@ -1,4 +1,6 @@
-﻿using tutoriaBE.Core.SessionAggregate;
+﻿using System.Collections.Generic;
+using Ardalis.Result;
+using tutoriaBE.Core.SessionAggregate;
 using tutoriaBE.Core.UserAggregate.Entities;
 using tutoriaBE.Core.UserAggregate.Policies;
 using tutoriaBE.Core.UserAggregate.ValueObjects;
@@ -19,14 +21,14 @@ public class User : EntityBase, IAggregateRoot
   // Navigation properties
   // -----------------------------
 
-  public Tutor? TutorProfile { get; private set; }
-  public List<Message>? Messages { get; private set; }
+  public virtual Tutor? TutorProfile { get; private set; }
+  public virtual List<Message>? Messages { get; private set; }
 
   // -----------------------------
   // Constructors
   // -----------------------------
 
-  private User() { } // EF Core
+  protected User() { } // EF Core
 
   public static Result<User> Create(string firstName, string lastName, string email, string password, IPasswordHasher hasher)
   {
@@ -107,80 +109,35 @@ public class User : EntityBase, IAggregateRoot
   }
 
   // -----------------------------
-  // Update methods
+  // Bussiness methods
   // -----------------------------
-
-  public Result SetEmail(string newEmail)
+  public Result Promote()
   {
-    var emailResult = Email.Create(newEmail);
-    if (emailResult.IsInvalid())
+    var validationErrors = new List<ValidationError>();
+    var promotionErrors = PromotePolicy.Validate(Role);
+    if (promotionErrors.Any())
     {
-      return Result.Invalid(emailResult.ValidationErrors);
-    }
-
-    Email = emailResult.Value;
-    return Result.Success();
-  }
-
-  public Result SetPassword(string newPassword, IPasswordHasher hasher)
-  {
-    var errors = PasswordPolicy.Validate(newPassword);
-    if (errors.Any())
-    {
-      var validationErrors = errors
+      var promotionValidationErrors = promotionErrors
           .Select(error => new ValidationError
           {
-            Identifier = nameof(newPassword),
+            Identifier = nameof(Role),
             ErrorMessage = error
           })
           .ToList();
+      validationErrors.AddRange(promotionValidationErrors);
+    }
+    else
+    {
+      var tutor = new Tutor(Id);
+      TutorProfile = tutor;
+      Role = UserRole.Tutor;
+    }
+
+    if (validationErrors.Any())
+    {
       return Result.Invalid(validationErrors);
     }
 
-    PasswordHash = hasher.Hash(newPassword);
-    return Result.Success();
-  }
-
-  public Result UpdateFirstName(string firstName)
-  {
-    if (string.IsNullOrWhiteSpace(firstName))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(firstName),
-        ErrorMessage = "First name cannot be empty"
-      });
-    }
-
-    FirstName = firstName;
-    return Result.Success();
-  }
-  public Result UpdateLastName(string lastName)
-  {
-    if (string.IsNullOrWhiteSpace(lastName))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(lastName),
-        ErrorMessage = "Last name cannot be empty"
-      });
-    }
-
-    LastName = lastName;
-    return Result.Success();
-  }
-  public Result UpdateProfilePhoto(string? path)
-  {
-    if (string.IsNullOrWhiteSpace(path))
-    {
-      return Result.Invalid(new ValidationError
-      {
-        Identifier = nameof(path),
-        ErrorMessage = "Profile photo path cannot be empty"
-      });
-    }
-
-    ProfilePhotoPath = path;
     return Result.Success();
   }
 }

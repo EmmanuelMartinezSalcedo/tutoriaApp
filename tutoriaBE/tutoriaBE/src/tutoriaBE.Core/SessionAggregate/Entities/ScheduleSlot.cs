@@ -13,13 +13,13 @@ public class ScheduleSlot : EntityBase
   // Navigation properties
   // -----------------------------
 
-  public List<SessionSlot>? SessionSlots { get; private set; }
+  public virtual List<SessionSlot>? SessionSlots { get; private set; }
 
   // -----------------------------
   // Constructors
   // -----------------------------
 
-  private ScheduleSlot() { } // EF Core
+  protected ScheduleSlot() { } // EF Core
 
   public ScheduleSlot(int tutorId, ScheduleSlotDayOfWeek dayOfWeek, int startHour)
   {
@@ -37,13 +37,21 @@ public class ScheduleSlot : EntityBase
 
   private static void ValidateDayOfWeek(ScheduleSlotDayOfWeek dayOfWeek)
   {
-    if (!Enum.IsDefined(typeof(ScheduleSlotDayOfWeek), dayOfWeek))
+    if (!ScheduleSlotDayOfWeek.List.Contains(dayOfWeek))
       throw new ArgumentException("Invalid day of week", nameof(dayOfWeek));
   }
+
 
   private static void ValidateHour(int hour)
   {
     Guard.Against.OutOfRange(hour, nameof(hour), 0, 23);
+  }
+
+  public void book()
+  {
+    if (Status != ScheduleSlotStatus.Available)
+      throw new InvalidOperationException("Only available slots can be booked.");
+    Status = ScheduleSlotStatus.Booked;
   }
 
   // -----------------------------
